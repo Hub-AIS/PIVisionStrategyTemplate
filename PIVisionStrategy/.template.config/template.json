@@ -1,0 +1,14 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "Hub-AIS",
+  "classifications": [ "Strategy", "PIVision" ],
+  "name": "PIVision Strategy",
+  "identity": "HubAIS.PIVisionStrategy",
+  "shortName": "pivision-strategy",
+  "tags": {
+    "language": "C#",
+    "type": "project"
+  },
+  "sourceName": "PIVisionStrategy",
+  "preferNameDirectory": true
+}

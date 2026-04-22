@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "Debug with consollabs": {
+      "commandName": "Executable",
+      "executablePath": "C:\\Setup\\hub\\consollabs.exe",
+      "workingDirectory": "C:\\Setup\\hub"
+    }
+  }
+}

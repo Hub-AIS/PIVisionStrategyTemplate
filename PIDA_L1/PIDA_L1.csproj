@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="PIAccessExtension">
+      <HintPath>..\Libs\PIAccessExtension.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.4" />
+  </ItemGroup>
+  <Target Name="PostBuild" AfterTargets="PostBuildEvent">
+	<PropertyGroup>
+	   <ConsollabsAppsFolder>C:\Setup\hub\extensions\PIVisionImporter\extensions\$(ProjectName)</ConsollabsAppsFolder>
+	</PropertyGroup>
+	<ItemGroup>
+	  <FilesToCopy Include="$(TargetDir)*.*" />
+	 
+	</ItemGroup>
+	<MakeDir Directories="$(ConsollabsAppsFolder)" />
+	<Copy SourceFiles="@(FilesToCopy)" DestinationFolder="$(ConsollabsAppsFolder)" />
+  </Target>
+  
+
+</Project>

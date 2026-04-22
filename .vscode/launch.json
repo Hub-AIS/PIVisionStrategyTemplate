@@ -1,0 +1,11 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": ".NET Core Attach (PIVisionImporter)",
+      "type": "coreclr",
+      "request": "attach",
+      "processName": "PIVisionImporter.exe"
+    }
+  ]
+}

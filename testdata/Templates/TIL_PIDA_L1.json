@@ -1,0 +1,73 @@
+{
+  "Symbols": [
+    {
+      "Name": "Symbol0",
+      "SymbolType": "statictext",
+      "Configuration": {
+        "Top": 111,
+        "Left": 410.7,
+        "Height": 18.82,
+        "SetTextFromLink": false,
+        "StaticText": "MEAS",
+        "LinkURL": "",
+        "Fill": "rgba(255,255,255,0)",
+        "Stroke": "#778899",
+        "Rotation": 0,
+        "FontName": "Arial",
+        "FontSize": 12,
+        "UseIntegerFontSize": false,
+        "Width": 45.34375,
+        "Align": true
+      }
+    },
+    {
+      "DataSources": [
+        "pi:\\\\PISRV01?a9714c37-ffec-4499-bfbb-d7db6c160e18\\TIL_0201LIC5003.OUT?14682"
+      ],
+      "Name": "Symbol1",
+      "SymbolType": "value",
+      "Configuration": {
+        "Top": 131.67,
+        "Left": 409.17,
+        "DataShape": "Value",
+        "Height": 18.84,
+        "Fill": "rgba(255,255,255,0)",
+        "Stroke": "rgba(119,136,153,1)",
+        "ValueStroke": "#ffffff",
+        "ShowTime": false,
+        "IndicatorFillUp": "black",
+        "IndicatorFillDown": "black",
+        "IndicatorFillNeutral": "gray",
+        "ShowDifferential": true,
+        "DifferentialType": "percent",
+        "ShowIndicator": false,
+        "ShowValue": true,
+        "ShowTarget": true,
+        "ShowLabel": false,
+        "ShowUOM": false,
+        "TextAlignment": "left",
+        "FontName": "Arial",
+        "FontSize": 12,
+        "UseIntegerFontSize": false
+      }
+    }
+  ],
+  "AttachmentIds": [],
+  "RequestId": null,
+  "StartTime": "*-8h",
+  "EndTime": "*",
+  "LegacyDisplay": null,
+  "EventFramePath": null,
+  "Id": 20275,
+  "Name": "TIL_PIDA_L1",
+  "Path": null,
+  "Owner": "PISRV01\\Administrator",
+  "ReadOnly": false,
+  "Revision": 2,
+  "DisplayProperties": {
+    "BackgroundColor": "#303030",
+    "showAssetPaths": true,
+    "Calculations": []
+  },
+  "ProductVersion": "3.10"
+}
