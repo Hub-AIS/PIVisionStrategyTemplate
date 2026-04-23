@@ -17,7 +17,7 @@
   </ItemGroup>
   <Target Name="PostBuild" AfterTargets="PostBuildEvent">
 	<PropertyGroup>
-	   <ConsollabsAppsFolder>C:\Setup\hub\extensions\PIVisionImporter\extensions\$(ProjectName)</ConsollabsAppsFolder>
+	   <ConsollabsAppsFolder>C:\Setup\hub\extensions\PIVisionImporter\Extensions\$(ProjectName)</ConsollabsAppsFolder>
 	</PropertyGroup>
 	<ItemGroup>
 	  <FilesToCopy Include="$(TargetDir)*.*" />
