@@ -6,7 +6,7 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v6.0": {
-      "PIAccessExtension/1.0.1.2": {
+      "PIAccessExtension/1.0.1.4": {
         "dependencies": {
           "Newtonsoft.Json": "13.0.4"
         },
@@ -25,7 +25,7 @@
     }
   },
   "libraries": {
-    "PIAccessExtension/1.0.1.2": {
+    "PIAccessExtension/1.0.1.4": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
